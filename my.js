@@ -14,7 +14,7 @@ var mySwiper = new Swiper(".mySwiper", {
 
 $("nav > ul > li ").mouseenter(function(){
   $(this).children(".submenu").stop().slideDown(400);
-});
+}); 
 
 /*메인메뉴에서 마우스 커서가 떠나면, 서브메뉴 드롭업으로 사라짐*/
 $("nav > ul > li").mouseleave(function(){
