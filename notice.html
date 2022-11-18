@@ -5,8 +5,129 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notice</title>
+ 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="noticeStyle.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
  </head>
  <body>
     
+        <header>
+            <div id="main">
+                <nav>
+                    <ul>
+                        <a href="index.html"><img src="로고.jpg" alt="" class="logo"></a>
+                        <li><a href="#" class="aFirst"><strong>뉴스</strong></a>
+                            <ul class="submenu">
+                                <li><a href="notice.html">공지사항</a></li>
+                                <li><a href="#">업데이트</a></li>
+                                <li><a href="#">이벤트</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><strong>게임 가이드</strong></a> 
+                            <ul class="submenu">
+                                <li><a href="#">캐릭터 소개</a></li>
+                                <li><a href="#">조작법</a></li>
+                                <li><a href="#">아이템 소개</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><strong>커뮤니티</strong></a> 
+                            <ul class="submenu">
+                                <li><a href="#">자유게시판</a></li>
+                                <li><a href="#">거래소</a></li>
+                                <li><a href="#">스크린샷</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><strong>고객 지원</strong></a> 
+                            <ul class="submenu">
+                                <li><a href="#">1:1문의</a></li>
+                                <li><a href="#">신고하기</a></li>
+                                <li><a href="#">도움말</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="#" id="playButton">
+                    <h1><strong>GAME START</strong></h1>
+                </a>
+                <video muted autoplay loop>
+                    <source src="배경동영상.mp4" type="video/mp4">
+                </video>
+            </div>
+    </header>
+    
+<section class="notice">
+    <div class="page-title">
+          <div class="container">
+              <h3><strong>공지사항</strong></h3>
+          </div>
+      </div>
+  
+      <!-- board seach area -->
+      <div id="board-search">
+          <div class="container">
+              <div class="search-window">
+                  <form action="">
+                      <div class="search-wrap">
+                          <label for="search" class="blind">공지사항 내용 검색</label>
+                          <input id="search" type="search" name="" placeholder="검색어를 입력해주세요." value="">
+                          <button type="submit" class="btn btn-dark">검색</button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+     
+    <!-- board list area -->
+      <div id="board-list">
+          <div class="container">
+              <table class="board-table">
+                  <thead>
+                  <tr>
+                      <th scope="col" class="th-num">번호</th>
+                      <th scope="col" class="th-title">제목</th>
+                      <th scope="col" class="th-date">등록일</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                      <td>3</td>
+                      <th>
+                        <a href="#!">[공지사항] 개인정보 처리방침 변경안내처리방침</a>
+                        <p>테스트</p>
+                      </th>
+                      <td>2017.07.13</td>
+                  </tr>
+  
+                  <tr>
+                      <td>2</td>
+                      <th><a href="#!">공지사항 안내입니다. 이용해주셔서 감사합니다</a></th>
+                      <td>2017.06.15</td>
+                  </tr>
+  
+                  <tr>
+                      <td>1</td>
+                      <th><a href="#!">공지사항 안내입니다. 이용해주셔서 감사합니다</a></th>
+                      <td>2017.06.15</td>
+                  </tr>
+                  </tbody>
+              </table>
+          </div>
+      </div>
+  
+  </section>
+    <footer>
+        <div class="foo_div">
+            <a href="#"><img src="페이스북로고.png" alt=""></a>
+            <a href="#"><img src="인스타그램 로고.png" alt=""></a>
+            <a href="#"><img src="트위터 로고.png" alt=""></a>
+        </div>
+        <strong><span>(주) BITC게임즈</span><span> | </span><span>대표 : 박준형<span> | </span><span>사업자 등록번호 : 000-00-00000</span></strong><br>
+            <p>주소 : 대한민국 부산광역시 부산진구 3330-10 근처</p>
+            <span>전화번호 : 051-111-1111</span>
+    </footer>
+    <script src="my.js"></script>
  </body>
  </html>
