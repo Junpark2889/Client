@@ -1,0 +1,68 @@
+body {
+    background-image:url(바디이미지.jpg);
+    background-size:100% auto;
+    display:flex;
+    justify-content: center;
+}
+div#loginCont {
+    width: 400px;
+    height: 600px;
+    display:flex;
+    flex-direction:column;
+    /* border : 2px solid red; */
+    justify-content: center;
+    margin-top:8%;
+    background-color: white;
+}
+h1 {
+    text-align:center;
+    
+}
+h2{
+    font-size:15px;
+    margin-left:30px;
+}
+h1,h2 {
+    color:black;
+
+}
+div.check {
+    margin-left:30px;
+}
+div.check span {
+    font-size:11px
+}
+input {
+    display:block;
+    /* border:2px solid red; */
+}
+input#id {
+    margin-bottom:10px;
+    width:80%;
+    margin-left:30px;
+    height:25px;
+
+}
+input#password{
+    margin-bottom:30px;
+    width:80%;
+    margin-left:30px;
+    height:25px;
+}
+input#checkbox {
+    display:inline-block;
+}
+input.button {
+    width:25%;
+    height:8%;
+    margin-top:60px;
+    margin-left:150px;
+}
+h6 {
+   text-align:center;
+   margin-bottom:0;
+}
+a {
+    text-decoration: none;
+    color:black;
+}

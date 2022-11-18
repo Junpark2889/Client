@@ -1,0 +1,232 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: mintcream;
+}
+a{
+    text-decoration: none; 
+}
+
+div {
+    /* border: 2px solid red; */
+}
+
+header {
+    height:400px;
+}
+#main {
+    overflow:hidden;
+    position:relative;
+    width: 100%;
+    height: 100%;
+    background-image: url("메인2.jpg");
+    background-size:100% 100%;
+
+}
+nav > ul > li {
+    /* border:2px solid pink;  */
+}
+.submenu{
+    display:none;
+    position:absolute; z-index:99; text-align:center;
+    /* border:2px solid red; */
+    background-color:rgba(0,0,0, 0.5);
+    padding:10px;
+    margin:0;
+    padding-bottom:40px;
+}
+nav>ul>li> .submenu >li {
+    display:flex;
+    justify-content: center;
+    list-style-type: none; 
+    height:auto;
+    height:50px;
+}
+.submenu>li:hover {
+    /* background-color: blue; */
+}
+nav>ul>li> .submenu> li> a{
+    display:inline; 
+    color:white; 
+    font-size:12px;
+    padding-bottom:20px;
+}
+.submenu li a:hover {
+    color:darkgray;
+}
+video {
+    width:100%;
+    /* border:2px solid pink; */
+}
+
+nav {
+    position:absolute;
+    width: 100%;
+    height: 80px;
+    /* background-color: #0005; */
+    line-height: 80px;
+    /* border:2px solid yellow; */
+}
+
+nav img {
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+nav ul {
+    text-align : center;
+    margin-right: 30px;
+    overflow:hidden;
+}
+
+
+nav> ul >li {
+    list-style-type: none;
+    display: inline-block;
+    /* background-color: #000; */
+    padding-left:100px;
+    padding-right:100px;
+}
+nav > ul > li:hover {
+    /* background-color: gray; */
+}
+
+
+nav >ul >li >a {
+    position:relative;
+    text-decoration: none;
+    color: #fff;
+    z-index:10;
+    /* padding: 100px; */
+}
+nav ul li a:hover {
+    color:orange;
+}
+div#main #playButton {
+    display:block;
+    width:300px;
+    height:100px;
+    position:absolute;
+    border:5px solid white;
+    margin-top:12%;
+    background-color:blue;
+    border-radius: 10%;
+    text-align:center;
+    color:white;
+    padding-top:20px;
+    margin-left:40%;
+    z-index:10;
+}
+div#second .swiper {
+    /* border:5px solid pink; */
+    width:100%;
+    height:150px;
+}
+div#second {
+    display:grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin-left:10%;
+    margin-right:10%;
+    /* border:3px solid red; */
+}
+div#second >a{
+    /* border:0.5px solid black;  */
+    text-align:center; color:black;
+    padding-top:50px;
+    font-size:24px;
+    border-radius:5px;
+}
+div#second div.swiper .slide1 {
+    background-image: url("슬라이드1.jpg");
+    background-size:100% 100%;
+}
+div#second div.swiper .slide2 {
+    background-image: url("슬라이드2.jpg");
+    background-size:100% 100%;
+}
+div#second div.swiper .slide3 {
+    background-image: url("슬라이드3.jpg");
+    background-size:100% 100%;
+}
+div#second a.backLogin {
+    background-color: orange;
+}
+div#second a.backSign {
+    background-color: skyblue;
+}
+div#slide {
+    height:150px;
+}
+
+div#login article{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+iframe {
+    margin-left:10%;
+    width:80%;
+    margin-bottom:50px;
+}
+div#preview {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height:400px;
+    margin-left:10%;
+    margin-right:10%;
+}
+div#preview div {
+    margin:15%;
+}
+div#preview .preNotice {
+    background-image: url("공지사항.jpg");
+    background-size : 100% 100%;
+}
+div#preview .preNews {
+    background-image: url("뉴스.jpg");
+    background-size : 100% 100%;
+}
+div#preview .preCom {
+    background-image: url("커뮤니티.jpg");
+    background-size : 100% 100%;
+}
+div#preview .preEvent {
+    background-image: url("이벤트.jpg");
+    background-size : 100% 100%;
+}
+div#preview div a {
+    display:block;
+    height:100%;
+    /* border: 2px solid green; */
+    text-align: center;
+    font-size:36px;
+    padding-top :40%;
+    color:black;
+}
+div#preview div a:hover {
+    background-color:white;
+    opacity:0.5;
+}
+footer {
+    background-color: white;
+    height:200px;
+    text-align:center;
+}
+footer .foo_div {
+    background-color: lightgray;
+    width: 100%;
+    height: 50px;
+    margin-bottom:30px;
+    
+}
+footer .foo_div img {
+    width: 30px;
+    border-radius:20%;
+    margin-top:8px;
+    margin-left:50px;
+}
+footer span {
+    font-size:20px;
+}
