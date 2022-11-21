@@ -258,9 +258,18 @@ footer span {
 
 @keyframes startButton {
     0% {
-        font-size:30px;
+        font-size:20px;
+        opacity:0;
+        transform:rotate(0deg);
     }
     100% {
         font-size:45px;
+        opacity:1;
+        transform:rotate(1800deg);
+    }
+}
+@keyframes blink {
+    50% {
+        opacity:0.5;
     }
 }
